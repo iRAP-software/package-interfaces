@@ -1,0 +1,24 @@
+{
+    "name": "irap/interfaces",
+    "type": "library",
+    "description": "A package of generic interfaces that various packages can use and work with.",
+    "keywords": ["interfaces"],
+    "homepage": "http://www.irap.org/",
+    "license": "none",
+    "authors": [
+        {
+            "name": "IT Admin",
+            "email": "support@irap.org",
+            "homepage": "http://www.irap.org/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+    },
+    "autoload": {
+        "psr-4": {
+            "iRAP\\Interfaces\\": "src"
+        }
+    }
+}
