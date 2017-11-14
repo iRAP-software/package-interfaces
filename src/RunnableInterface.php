@@ -1,6 +1,6 @@
 <?php
 
-namespace iRAP\Emailers;
+namespace iRAP\Interfaces;
 
 /*
  * 
